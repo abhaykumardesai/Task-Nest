@@ -31,7 +31,7 @@ export default function Home() {
 
   return (
     <>
-      <h1 style={{ textAlign: "center" }}>TaskBuddy</h1>
+      <h1 style={{ textAlign: "center" }}>TaskNest</h1>
       <form onSubmit={addTask} className="input-section">
         <input 
           value={task}
