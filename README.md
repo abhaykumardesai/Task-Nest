@@ -1,12 +1,35 @@
-# React + Vite
+# TaskNest 📝
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TaskNest is a modern **task management application** built with **React**. It helps users organize their tasks into three categories: To Do, On-Going, and Completed. The UI is clean, responsive, and ready to integrate dynamic functionality.
 
-Currently, two official plugins are available:
+## Features (UI Ready)
+- Input field to add tasks
+- Three task columns: To Do, On-Going, Completed
+- Buttons to move tasks between columns
+- Responsive grid layout
+- Clean, modern design with hover effects on buttons
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- **Frontend Framework:** React.js
+- **Styling:** CSS
+- **Build Tool:** Vite
+- **Version Control:** Git & GitHub
 
-## Expanding the ESLint configuration
+## Future Enhancements
+- Dynamic task management with **React state**
+- **localStorage** support for persistent tasks
+- Progress tracker to show percentage of completed tasks
+- Task history with restore or delete options
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+1. **Clone the repository**
+   ```bash
+   git clone <your-repo-link>
+   cd TaskNest
+2. **Install dependencies**
+   ```bash
+   npm install
+3. **Run the development server**
+   ```bash
+   npm run dev
+4. **Open http://localhost:5173 in your browser to view the app.**
