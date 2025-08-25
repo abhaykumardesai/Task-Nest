@@ -13,16 +13,16 @@ export default function Completed({ list, moveToDo, moveToOngoing }) {
               <h4>{task}</h4>
               <div className='button-container'>
                 <button 
-                  title="Restart Task" 
                   onClick={() => moveToDo(index)} 
                   className='move btn-start'>
                   <span className="material-symbols-outlined">replay</span>
+                  <span className="btn-label">Restart</span>
                 </button>
                 <button 
-                  title="Resume Task" 
                   onClick={() => moveToOngoing(index)} 
                   className='move btn-complete'>
                   <span className="material-symbols-outlined">play_arrow</span>
+                  <span className="btn-label">Resume</span>
                 </button>
               </div>
             </li>

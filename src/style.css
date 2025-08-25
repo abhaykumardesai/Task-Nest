@@ -71,7 +71,6 @@ input {
 .task-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
-  /* auto-fit makes it dynamic, minmax ensures columns are at least 250px */
   gap: 20px;
   padding: 0 20px 20px 20px;
 }
@@ -149,6 +148,8 @@ input {
   font-weight: bold;
   cursor: pointer;
   padding: 5px 10px;
+  display: flex;
+  align-items: center;
   transition: opacity 0.2s ease-in-out, transform 0.2s ease;
 }
 
@@ -174,10 +175,18 @@ input {
   margin-top: 20px;
 }
 
+/* Button label next to icons */
+.btn-label {
+  margin-left: 5px;
+  font-size: 12px;
+  display: inline-block;
+}
+
 /* Small Screen Tweaks */
 @media (max-width: 500px) {
   h1 { font-size: 2.2rem; }
   input { width: 100%; }
   .task-list li { flex-direction: column; align-items: flex-start; }
-  .button-container { justify-content: flex-start; }
+  .button-container { justify-content: flex-start; gap: 5px; }
+  .btn-label { font-size: 10px; } /* smaller label text for mobile */
 }
