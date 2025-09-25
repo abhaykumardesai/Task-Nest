@@ -24,7 +24,7 @@ TaskNest is a modern **task management application** built with **React**. It he
 ## Getting Started
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-link>
+   git clone https://github.com/abhaykumardesai/Task-Nest.git
    cd TaskNest
 2. **Install dependencies**
    ```bash
